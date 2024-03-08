@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+
+        .flex-center {
+            display: flex;
+            justify-items: center;
+            flex-direction: column;
+        }
+
+        .listing {
+            display: flex;
+            justify-items: center;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 24px 0;
+        }
+
+        li {
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-center">
+        <h1>List of useful tools</h1>
+
+        <ul class="listing">
+            <li>
+                Generate Bitcoin wallet:
+                <br /><a href="bip39/src/index.html">bip39</a>
+            </li>
+            <li>
+                Encrypt and decrypt texts:
+                <br /><a href="encrypt-decrypt/index.html">encrypt-decrypt</a>
+            </li>
+            <li>
+                Compress key:
+                <br /><a href="keycompression/src/index.html">keycompression</a>
+            </li>
+            <li>
+                Generate QRCode:
+                <br /><a href="qr-code/index.html">qr-code</a>
+            </li>
+            <li>
+                Read QRCode:
+                <br /><a href="qr-code-reader/index.html">qr-code-reader</a>
+            </li>
+            <li>
+                Shamir key split tool:
+                <br /><a href="shamir/src/index.html">shamir</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
